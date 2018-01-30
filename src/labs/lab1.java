@@ -13,6 +13,7 @@ public class lab1 {
 		System.out.println("The min is " + findMin(numbers));
 		System.out.println("The max is " + findMax(numbers));
 		System.out.println("The average is " + findAve(numbers));
+		System.out.println(average(2,1));
 		
 
 	}
@@ -60,6 +61,10 @@ public class lab1 {
 		
 			return sum/arr.length;
 		}
+	
+	public static double average (double a, double b) {
+		return (a + b) /2;
+	}
 }
 
 
